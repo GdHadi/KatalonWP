@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login scenarios" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="Login scenarios" tests="1" failures="0" errors="0" time="21" timestamp="2018-05-12 14:13:17" hostname="gdhadi - aVivo" id="Test Suites/Login scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gdhadi\\git\\KatalonWP\\Reports\\Login scenarios\\20180512_141313"/>
+         <property name="logFiles" value="C:\\Users\\gdhadi\\git\\KatalonWP\\Reports\\Login scenarios\\20180512_141313\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gdhadi - aVivo"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="a9cbf3ff5b04f44d51062b03cb063dd4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Successfully Login" classname="Test Cases/Successfully Login" status="PASSED">
+         <system-out><![CDATA[2018-05-12 14:13:18 - [TEST_CASE][PASSED] - Test Cases/Successfully Login: Test Cases/Successfully Login
+
+2018-05-12 14:13:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-12 14:13:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-12 14:13:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qatesting123.wordpress.com/wp-admin' successfully
+
+2018-05-12 14:13:32 - [MESSAGE][PASSED] - Navigate to 'https://qatesting123.wordpress.com/wp-admin' successfully
+
+2018-05-12 14:13:32 - [TEST_STEP][PASSED] - setText: Text 'gdhadi' is set on object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_usernameOrEmail'
+
+2018-05-12 14:13:32 - [MESSAGE][PASSED] - Text 'gdhadi' is set on object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_usernameOrEmail'
+
+2018-05-12 14:13:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Log Masuk  WordPress.com/button_Lanjutkan' is clicked on
+
+2018-05-12 14:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Log Masuk  WordPress.com/button_Lanjutkan' is clicked on
+
+2018-05-12 14:13:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_password' is visible
+
+2018-05-12 14:13:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_password' is visible
+
+2018-05-12 14:13:33 - [TEST_STEP][PASSED] - setText: Text 'admin54321' is set on object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_password'
+
+2018-05-12 14:13:33 - [MESSAGE][PASSED] - Text 'admin54321' is set on object 'Object Repository/Login/Page_Log Masuk  WordPress.com/input_password'
+
+2018-05-12 14:13:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Log Masuk  WordPress.com/button_Log Masuk' is clicked on
+
+2018-05-12 14:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Log Masuk  WordPress.com/button_Log Masuk' is clicked on
+
+2018-05-12 14:13:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Login/Page_Dasbor  qatesting123  WordPres/img_avatar avatar-32' is visible
+
+2018-05-12 14:13:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Dasbor  qatesting123  WordPres/img_avatar avatar-32' is visible
+
+2018-05-12 14:13:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-12 14:13:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-12 14:13:17 - [TEST_SUITE][PASSED] - Login scenarios: Test Cases/Successfully Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
