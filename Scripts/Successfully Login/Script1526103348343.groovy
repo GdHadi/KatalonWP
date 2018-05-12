@@ -22,15 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://wordpress.com/log-in/id?redirect_to=https%3A%2F%2Fqatesting123.wordpress.com%2Fwp-admin%2F')
+WebUI.navigateToUrl('https://qatesting123.wordpress.com/wp-admin')
 
-WebUI.setText(findTestObject('Login/Page_Log Masuk  WordPress.com/input_usernameOrEmail'), 'gdhadi')
+WebUI.setText(findTestObject('Login/Page_Log Masuk  WordPress.com/input_usernameOrEmail'), Username)
 
 WebUI.click(findTestObject('Login/Page_Log Masuk  WordPress.com/button_Lanjutkan'))
 
 WebUI.waitForElementVisible(findTestObject('Login/Page_Log Masuk  WordPress.com/input_password'), 10)
 
-WebUI.setText(findTestObject('Login/Page_Log Masuk  WordPress.com/input_password'), 'admin54321')
+WebUI.setText(findTestObject('Login/Page_Log Masuk  WordPress.com/input_password'), Password)
 
 WebUI.click(findTestObject('Login/Page_Log Masuk  WordPress.com/button_Log Masuk'))
 
