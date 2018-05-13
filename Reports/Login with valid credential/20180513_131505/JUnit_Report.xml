@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login with valid credential" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="Login with valid credential" tests="1" failures="0" errors="0" time="19" timestamp="2018-05-13 13:15:08" hostname="gdhadi - aVivo" id="Test Suites/Login with valid credential">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gdhadi\\git\\KatalonWP\\Reports\\Login with valid credential\\20180513_131505"/>
+         <property name="logFiles" value="C:\\Users\\gdhadi\\git\\KatalonWP\\Reports\\Login with valid credential\\20180513_131505\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gdhadi - aVivo"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="bdcc9f844e6a342c40fc0824d9372b18"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login with valid a credential" classname="Test Cases/Login with valid a credential" status="PASSED">
+         <system-out><![CDATA[2018-05-13 13:15:09 - [TEST_CASE][PASSED] - Test Cases/Login with valid a credential: Test Cases/Login with valid a credential
+
+2018-05-13 13:15:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-13 13:15:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-13 13:15:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://wordpress.com/log-in/id?redirect_to=https%3A%2F%2Fqatesting123.wordpress.com%2Fwp-admin%2F' successfully
+
+2018-05-13 13:15:20 - [MESSAGE][PASSED] - Navigate to 'https://wordpress.com/log-in/id?redirect_to=https%3A%2F%2Fqatesting123.wordpress.com%2Fwp-admin%2F' successfully
+
+2018-05-13 13:15:20 - [TEST_STEP][PASSED] - setText: Text 'gdhadi' is set on object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_usernameOrEmail'
+
+2018-05-13 13:15:21 - [MESSAGE][PASSED] - Text 'gdhadi' is set on object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_usernameOrEmail'
+
+2018-05-13 13:15:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/button_Lanjutkan' is clicked on
+
+2018-05-13 13:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/button_Lanjutkan' is clicked on
+
+2018-05-13 13:15:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_password' is visible
+
+2018-05-13 13:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_password' is visible
+
+2018-05-13 13:15:21 - [TEST_STEP][PASSED] - setText: Text 'admin54321' is set on object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_password'
+
+2018-05-13 13:15:22 - [MESSAGE][PASSED] - Text 'admin54321' is set on object 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/input_password'
+
+2018-05-13 13:15:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/button_Log Masuk' is clicked on
+
+2018-05-13 13:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Log Masuk  WordPress.com/button_Log Masuk' is clicked on
+
+2018-05-13 13:15:22 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Login Page/Page_Dasbor  qatesting123  WordPres (1)/img_avatar avatar-32' is visible
+
+2018-05-13 13:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Dasbor  qatesting123  WordPres (1)/img_avatar avatar-32' is visible
+
+2018-05-13 13:15:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-13 13:15:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-13 13:15:08 - [TEST_SUITE][PASSED] - Login with valid credential: Test Cases/Login with valid a credential]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
