@@ -6,13 +6,6 @@
    <comment></comment>
    <testCaseGuid>de9e219a-4b5e-4474-8d9d-8d550083538c</testCaseGuid>
    <variable>
-      <defaultValue>'https://qatesting123.wordpress.com/wp-admin'</defaultValue>
-      <description></description>
-      <id>27a94d13-ebb2-4b6a-93c8-9c3d9065b5f7</id>
-      <masked>false</masked>
-      <name>URL</name>
-   </variable>
-   <variable>
       <defaultValue>'gdhadi'</defaultValue>
       <description></description>
       <id>6eeb6821-ceee-42a9-b1d0-194696099781</id>
